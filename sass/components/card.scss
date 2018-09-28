@@ -1,0 +1,74 @@
+.card-1 { 
+    width: 100px;
+    height: 100px;    
+  
+    display: inline;
+    border-radius: 30px;
+    margin: 20em 0 2em 0;
+  }
+  
+  .card-1 img {
+    width: 200px;
+    height: 200px;
+    background-image: url("Images/pic1.jpg");
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .content-container {
+    width: 80%;
+  }
+  
+  .card-2 { 
+      width: 900px;
+      height: 200px;
+      margin-top: 20em;
+      margin-left: 73px;
+  
+  }
+  card-mrgin {
+    margin-bottom: 60em;
+  }
+  
+  h2 {
+      display: center;   
+      margin: 10px 0 0 20px;
+    
+  }
+  h2.background:hover {
+    background: red;
+    width: 170px;
+    height: 40px;
+  }
+  
+  
+  p.card { 
+      color: black;
+      margin: 0 0 90px 22px;
+      padding-bottom: 10px;
+     
+  }
+  
+  
+  hr { 
+    margin-left: .7em;
+    border-top: 2px solid rgb(52, 56, 48);
+  }
+  
+  @media screen and (min-width: 300px) and (max-width: 600px) {
+    .card-1,
+    .card-2 {
+      width: 100%;
+      margin: 100px 42px 400px 0;
+    
+    }
+    .card-1 img {
+      width: 70%;
+      margin-left: 70px;
+    }
+    .card-1 p, h {
+      margin-top: 10px;
+      margin-bottom: 100px;
+    }
+ }  
