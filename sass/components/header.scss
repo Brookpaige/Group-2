@@ -1,6 +1,6 @@
 @font-face{
     font-family:"header-font";
-    src:url(../fonts/CreteRound-Regular.ttf)
+    src:url('../fonts/CreteRound-Regular.ttf')
 }
 header {
     height: 66px;
@@ -45,16 +45,14 @@ header {
 
 .logo{
     width: 100px;
-    color: black;
+    color:black;
     margin-right: auto;
-} span {
+    span{
     margin-left: 10px;
     white-space: nowrap;
     text-transform: uppercase;
-    // font-family:"header-font",sans-serif;
-    
+    }
 }
-
 .hamburger-icon{
     display: none;
     background: transparent;
@@ -62,4 +60,4 @@ header {
     @media (max-width:600px) {
         display: inline-block;
     }
-} 
+}  
