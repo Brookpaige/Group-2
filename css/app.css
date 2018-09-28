@@ -14,10 +14,15 @@ body {
   font-family: "header-font";
   src: url("../fonts/CreteRound-Regular.ttf"); }
 
+@font-face {
+  font-family: "p-font";
+  src: url("../fonts/Acme-Regular.ttf"); }
+
 header {
   height: 66px;
   font-size: 20px;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: "header-font",sans-serif; }
   header .container {
     height: 65px; }
     header .container ul {
@@ -61,6 +66,10 @@ header {
     .hamburger-icon {
       display: inline-block; } }
 
+@font-face {
+  font-family: "p-font";
+  src: url("../fonts/Acme-Regular.ttf"); }
+
 .hero {
   padding: 20px;
   height: 600px;
@@ -79,10 +88,12 @@ header {
     font-family: "header-font",sans-serif; }
   .hero h1 {
     font-size: 50px;
-    color: white; }
+    color: white;
+    font-family: "header-font",sans-serif; }
   .hero p {
     font-size: 20px;
-    color: white; }
+    color: white;
+    font-family: "p-font",sans-serif; }
 
 .hero-content {
   width: 60%; }
