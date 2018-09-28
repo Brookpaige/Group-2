@@ -149,7 +149,7 @@ footer {
   background: #345473;
   width: 100%;
   padding: 60px 0px;
-  /*display: flex;*/ }
+  display: flex; }
   footer h2 {
     color: #082541;
     font-size: 35px;
@@ -164,21 +164,22 @@ footer {
     text-decoration: none;
     font-size: 27px;
     font-weight: 300; }
+    footer a:hover {
+      color: white;
+      text-decoration: none; }
 
 .footer-link {
   display: flex;
   flex-direction: column;
+  justify-content: left;
+  width: 300px;
   /* justify-content: space-around; */ }
   .footer-link ul {
     margin: 0 0 30px 0;
     padding: 0;
     display: flex;
-    flex-direction: column; }
-
-.social-icons li {
-  flex: 1; }
-  .social-icons li:hover {
-    opacity: 1.0; }
+    flex-direction: column;
+    text-align: left; }
 
 .content {
   display: flex;
