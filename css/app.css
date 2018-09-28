@@ -93,14 +93,8 @@ p {
   font-size: 20px;
   color: white; }
 
-
 .hero-content {
   width: 60%; }
-
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 .wrapper {
   justify-content: space-around;
@@ -146,3 +140,7 @@ footer a {
 .social-icons li {
   flex: 1; }
 
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
