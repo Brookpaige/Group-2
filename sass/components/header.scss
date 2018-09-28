@@ -8,6 +8,7 @@
 }
 
 header {
+    background: #446e97;
     height: 66px;
     font-size: 20px;
     font-weight: bold;
@@ -51,9 +52,11 @@ header {
 
 .logo{
     width: 100px;
-    color:black;
+    color: rgb(187, 72, 72);
     margin-right: auto;
     span{
+    color: black;
+    font-size: 35px;    
     margin-left: 10px;
     white-space: nowrap;
     text-transform: uppercase;

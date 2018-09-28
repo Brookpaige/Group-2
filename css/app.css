@@ -19,6 +19,7 @@ body {
   src: url("../fonts/Acme-Regular.ttf"); }
 
 header {
+  background: #446e97;
   height: 66px;
   font-size: 20px;
   font-weight: bold;
@@ -51,9 +52,11 @@ header {
 
 .logo {
   width: 100px;
-  color: black;
+  color: #bb4848;
   margin-right: auto; }
   .logo span {
+    color: black;
+    font-size: 35px;
     margin-left: 10px;
     white-space: nowrap;
     text-transform: uppercase; }
@@ -219,12 +222,13 @@ footer {
   margin: 80px 0;
   width: 70%; }
 
-li a {
+.bio-details li a {
   list-style: none;
   font-size: 35px;
-  color: white; }
-  li a:hover {
-    text-decoration: none; }
+  color: #bb4848; }
+  .bio-details li a:hover {
+    text-decoration: none;
+    color: white; }
 
 li {
   list-style: none; }

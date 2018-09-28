@@ -1,3 +1,4 @@
+
     .about {
         margin: 20px;
         padding: 50px 0;
@@ -16,14 +17,15 @@
         
     }
     
-    li a{
+    .bio-details li a{
         list-style: none;
         font-size: 35px;
-        color: white;
+        color: rgb(187, 72, 72);
+    
         
         &:hover{
             text-decoration: none;
-            
+            color: white;
         }
     }
 
