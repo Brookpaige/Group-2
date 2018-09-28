@@ -7,3 +7,11 @@
 	border-radius: 100px;
 	margin-right: 40px;
 }
+@mixin imageContainerSquare($image-path) {
+	background-image: url($image-path);
+	background-size: cover;
+	background-position: 20% 70%;
+	height: 200px;
+	width: 200px;
+	margin-right: 40px;
+}

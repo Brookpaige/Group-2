@@ -1,0 +1,49 @@
+    .about {
+        margin: 20px;
+        padding: 50px 0;
+        .wrapper {
+            max-width: 700px;
+        }
+        hr {
+            border-color: black;
+        }
+    }
+    
+    .bio-card  {
+        display: flex;
+        margin: 80px 0;
+        width: 70%;
+        
+    }
+    
+    li a{
+        list-style: none;
+        font-size: 35px;
+        color: white;
+        
+        &:hover{
+            text-decoration: none;
+            
+        }
+    }
+
+    li{
+        list-style: none;
+    }
+
+    
+    .pic-1Square {
+     
+        @include imageContainerSquare('../img/image5.jpg');
+    }
+    .pic-2Square {
+        @include imageContainerSquare('../img/image6.jpg');
+    }
+    .pic-3Square {
+        @include imageContainerSquare('../img/image7.jpg');
+    }
+
+
+    
+
+   
