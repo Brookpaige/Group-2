@@ -71,27 +71,23 @@ span {
   background-image: linear-gradient(-170deg, rgba(221, 207, 207, 0) 30%, rgba(0, 0, 0, 0.993)), url("../img/Group2-img-1.jpg");
   background-size: cover;
   background-position: 50% 40%; }
-
-.container {
-  height: 550px;
-  display: flex;
-  align-items: flex-end; }
-
-button {
-  color: white;
-  background: #bb4848;
-  border: none;
-  font-size: 20px;
-  font-family: "p-font",sans-serif; }
-
-h1 {
-  font-size: 50px;
-  color: white; }
-
-p {
-  font-family: "p-font",sans-serif;
-  font-size: 20px;
-  color: white; }
+  .hero .container {
+    height: 550px;
+    display: flex;
+    align-items: flex-end; }
+  .hero button {
+    color: white;
+    background: #bb4848;
+    border: none;
+    font-size: 20px;
+    font-family: "p-font",sans-serif; }
+  .hero h1 {
+    font-size: 50px;
+    color: white; }
+  .hero p {
+    font-family: "p-font",sans-serif;
+    font-size: 20px;
+    color: white; }
 
 .hero-content {
   width: 60%; }
@@ -134,7 +130,7 @@ footer a {
   font-size: 27px;
   font-weight: 300; }
 
-.social-icons :hover {
+.social-icons:hover {
   opacity: 1.0; }
 
 .social-icons li {
@@ -143,4 +139,8 @@ footer a {
 .content {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: red;
+  color: black; }
