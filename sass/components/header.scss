@@ -13,7 +13,6 @@ header {
         @media (max-width:600px) {
         display:none; 
         } 
-    }
 
     } li {
         list-style:none;
@@ -27,26 +26,26 @@ header {
         padding:0 10px;
         display: flex;
         align-items:center;
-        $black;
+        color: black;
 
-    } &:hover {
+     &:hover {
         background:grey;
         text-decoration:none;
-        $white;
-            }    
-        }
+        color: white;
+            
+    
     }
 }
 
 .logo{
     width:100px;
-    $black;
+    color: black;
     margin-right:auto;
 } span {
     margin-left:10px;
     white-space:nowrap;
     text-transform:uppercase;
-    }
+    
 }
 
 .hamburger-icon{

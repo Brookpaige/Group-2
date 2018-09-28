@@ -6,7 +6,7 @@
             -170deg,
             rgba(221, 207, 207, 0) 30%,
             rgba(0, 0, 0, 0.993)), 
-            url('./img/Group2-img-1.jpg');
+            url('../img/Group2-img-1.jpg');
     background-size:cover;
     background-position:50% 40%;
     } .container {
@@ -14,19 +14,18 @@
     display:flex;
     align-items:flex-end;
     } button {
-    $white;
+    color: white;
     background:rgb(187, 72, 72);
     border:none;
     font-size:20px;
     font-family:"p-font",sans-serif;
     } h1 {
     font-size:50px;
-    $white;
+    color: white;
     } p {
     font-family:"p-font",sans-serif;
     font-size:20px;
-    $white;
-    }
+    color: white;
 }
 
 .hero-content{
