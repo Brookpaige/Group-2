@@ -10,6 +10,10 @@
 body {
   background: #f7e3e5; }
 
+@font-face {
+  font-family: "header-font";
+  src: url("../fonts/CreteRound-Regular.ttf"); }
+
 header {
   height: 66px;
   font-size: 20px;
@@ -44,19 +48,17 @@ header {
   width: 100px;
   color: black;
   margin-right: auto; }
-
-span {
-  margin-left: 10px;
-  white-space: nowrap;
-  text-transform: uppercase; }
-
-.hamburger-icon {
-  display: none;
-  background: transparent;
-  border: none; }
-  @media (max-width: 600px) {
-    .hamburger-icon {
-      display: inline-block; } }
+  .logo span {
+    margin-left: 10px;
+    white-space: nowrap;
+    text-transform: uppercase; }
+  .logo .hamburger-icon {
+    display: none;
+    background: transparent;
+    border: none; }
+    @media (max-width: 600px) {
+      .logo .hamburger-icon {
+        display: inline-block; } }
 
 .hero {
   padding: 20px;
@@ -73,12 +75,11 @@ span {
     background: #bb4848;
     border: none;
     font-size: 20px;
-    font-family: "p-font",sans-serif; }
+    font-family: "header-font",sans-serif; }
   .hero h1 {
     font-size: 50px;
     color: white; }
   .hero p {
-    font-family: "p-font",sans-serif;
     font-size: 20px;
     color: white; }
 
