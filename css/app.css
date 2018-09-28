@@ -98,3 +98,47 @@ p {
   font-family: "p-font",sans-serif;
   font-size: 20px;
   color: white; }
+
+.wrapper {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+footer {
+  background: #345473;
+  width: 100%;
+  padding: 60px 0px;
+  /*display: flex;*/ }
+
+.footer-link {
+  display: inline-block;
+  /* justify-content: space-around; */ }
+
+footer h2 {
+  color: #082541;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 20px 0; }
+
+footer ul {
+  margin: 0 0 30px 0;
+  padding: 0; }
+
+footer li {
+  list-style: none;
+  margin-top: 8px; }
+
+footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 300; }
+
+.social-icons :hover {
+  opacity: 1.0; }
+
+.social-icons li {
+  flex: 1; }
