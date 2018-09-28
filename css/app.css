@@ -119,14 +119,22 @@ p {
   
 }
 
+.content-container {
+  width: 80%;
+}
 
 .card-2 { 
     width: 900px;
     height: 200px;
     margin-top: 20em;
     margin-left: 73px;
+    margin-bottom: 30px;
 
 }
+card-mrgin {
+  margin-bottom: 60em;
+}
+
 h2 {
     display: center;   
     margin: 10px 0 0 20px;
@@ -139,9 +147,9 @@ h2.background:hover {
 }
 
 
-p { 
+p.card { 
     color: black;
-    margin: 0 0 90px 22px;
+    margin: 0 0 80px 22px;
     padding-bottom: 10px;
    
 }
@@ -152,23 +160,26 @@ hr {
   border-top: 2px solid rgb(52, 56, 48);
 }
 
-@media screen and (min-width: 200px) and (max-width: 600px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
   .card-1,
   .card-2 {
     width: 100%;
-    margin: 300px 42px 44px 0;
+    margin: 100px 42px 400px 0;
   
   }
   .card-1 img {
     width: 70%;
     margin-left: 70px;
+    margin-top: 5px;
   }
   .card-1 p, h {
-    margin-top: 10px;
+    top: 0;
+    margin-bottom: 100px;
   }
 
 
 }
+
 footer {
   background: #345473;
   width: 100%;
