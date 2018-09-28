@@ -71,3 +71,7 @@ typings/
 
 # Serverless directories
 .serverless
+
+
+# Our own git ignore files
+css
