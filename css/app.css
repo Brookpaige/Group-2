@@ -100,6 +100,20 @@ footer {
   width: 100%;
   padding: 60px 0px;
   /*display: flex;*/ }
+  footer h2 {
+    color: #082541;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 20px 0; }
+  footer li {
+    list-style: none;
+    margin-top: 8px; }
+  footer a {
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 300; }
 
 .footer-link {
   display: flex;
@@ -111,28 +125,10 @@ footer {
     display: flex;
     flex-direction: column; }
 
-footer h2 {
-  color: #082541;
-  font-size: 35px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0 0 20px 0; }
-
-footer li {
-  list-style: none;
-  margin-top: 8px; }
-
-footer a {
-  color: black;
-  text-decoration: none;
-  font-size: 27px;
-  font-weight: 300; }
-
-.social-icons:hover {
-  opacity: 1.0; }
-
 .social-icons li {
   flex: 1; }
+  .social-icons li:hover {
+    opacity: 1.0; }
 
 .content {
   display: flex;
