@@ -17,42 +17,14 @@
 }
 
 .pic-1 {
-    background-image:
-    url('../img/b.jpg');
-    background-size:cover;
-    background-position:50% 70%;
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    margin-right: 40px;
+    @include imageContainer('../img/b.jpg');
 }
-.pic-2{
-    background-image:
-    url('../img/l.jpg');
-    background-size:cover;
-    background-position:20% 70%;
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    margin-right: 40px;
+.pic-2 {
+    @include imageContainer('../img/l.jpg');
 }
 .pic-3{
-    background-image:
-    url('../img/j.jpg');
-    background-size:cover;
-    background-position:50% 70%;
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    margin-right: 40px;
+    @include imageContainer('../img/j.jpg');
 }
 .pic-4{
-    background-image:
-    url('../img/s.jpg');
-    background-size:cover;
-    background-position:50% 70%;
-    height: 200px;
-    width: 200px;
-    border-radius: 100px;
-    margin-right: 40px;
+    @include imageContainer('../img/s.jpg');
 }

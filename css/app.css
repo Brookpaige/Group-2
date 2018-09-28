@@ -12,6 +12,7 @@ body {
 
 @font-face {
   font-family: "header-font";
+
   src: url("../fonts/CreteRound-Regular.ttf"); }
 
 header {
@@ -103,7 +104,7 @@ header {
 .pic-1 {
   background-image: url("../img/b.jpg");
   background-size: cover;
-  background-position: 50% 70%;
+  background-position: 20% 70%;
   height: 200px;
   width: 200px;
   border-radius: 100px;
@@ -121,7 +122,7 @@ header {
 .pic-3 {
   background-image: url("../img/j.jpg");
   background-size: cover;
-  background-position: 50% 70%;
+  background-position: 20% 70%;
   height: 200px;
   width: 200px;
   border-radius: 100px;
@@ -130,7 +131,7 @@ header {
 .pic-4 {
   background-image: url("../img/s.jpg");
   background-size: cover;
-  background-position: 50% 70%;
+  background-position: 20% 70%;
   height: 200px;
   width: 200px;
   border-radius: 100px;
@@ -147,7 +148,7 @@ footer {
   background: #345473;
   width: 100%;
   padding: 60px 0px;
-  /*display: flex;*/ }
+  display: flex; }
   footer h2 {
     color: #082541;
     font-size: 35px;
@@ -162,21 +163,22 @@ footer {
     text-decoration: none;
     font-size: 27px;
     font-weight: 300; }
+    footer a:hover {
+      color: white;
+      text-decoration: none; }
 
 .footer-link {
   display: flex;
   flex-direction: column;
+  justify-content: left;
+  width: 300px;
   /* justify-content: space-around; */ }
   .footer-link ul {
     margin: 0 0 30px 0;
     padding: 0;
     display: flex;
-    flex-direction: column; }
-
-.social-icons li {
-  flex: 1; }
-  .social-icons li:hover {
-    opacity: 1.0; }
+    flex-direction: column;
+    text-align: left; }
 
 .content {
   display: flex;
@@ -187,8 +189,13 @@ footer {
   background: white;
   color: #222;
   margin: auto;
-  padding: 10px;
+  padding: 40px;
   text-align: justify;
+
+  width: 80%;
+  margin-bottom: 50px;
+  margin-top: 30px; }
+
   width: 80%; }
 
 .card-1 {
@@ -246,3 +253,4 @@ hr {
   .card-1 p, h {
     margin-top: 10px;
     margin-bottom: 100px; } }
+

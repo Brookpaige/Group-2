@@ -1,9 +1,9 @@
 /* LINKING FILES TO SASS CODE ELEMENTS */
 
+@import './base/variables.scss';
 @import './base/general.scss';
 @import './base/layout.scss';
 @import './base/mixins.scss';
-@import './base/variables.scss';
 @import './components/input.scss';
 @import './components/header.scss';
 @import './components/hero.scss';
@@ -11,5 +11,6 @@
 @import './components/footer.scss';
 @import './components/blog.scss';
 @import './components/card.scss';
+
 
 
