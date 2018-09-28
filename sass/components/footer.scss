@@ -6,14 +6,14 @@
     flex-wrap: wrap;
   }
 
-  footer{
-    background: #345473;
+  footer {
+    background: $footer-color;
     width: 100%;
     padding: 60px 0px;
-    /*display: flex;*/
+    display: flex;
     
      h2 {
-      color: #082541;
+      color: $footer-header;
       font-size: 35px;
       font-weight: bold;
       text-transform: uppercase;
@@ -28,25 +28,24 @@
     text-decoration: none;
     font-size: 27px;
     font-weight: 300;
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
   }
 }
   
   .footer-link {
     display: flex;
     flex-direction: column;
+    justify-content: left;
+    width: 300px;
     /* justify-content: space-around; */
     ul {
       margin: 0 0 30px 0;
       padding: 0;
       display: flex;
       flex-direction: column;
+      text-align: left;
     }
 }
-
-    .social-icons li{
-    flex: 1;
-    &:hover {
-      opacity: 1.0;
-    }
-  }
-
